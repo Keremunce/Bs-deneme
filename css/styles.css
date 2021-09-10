@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    font-size: 1rem;
+    /* font-family: "Montserrat",  sans-serif; */
+    font-family: "Open Sans",  sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+}
+section{
+    margin-top: 3rem;
+}
+.theme-blue{
+    color: #261E9A;
+}
+.rounded-5{
+    border-radius: 10px!important;
+}
+.ml-4_5{
+    margin-left: 2.1rem!important;
+}
+.p-10{
+    padding: 10rem!important;
+}
+.Lobster{
+    font-family: 'Lobster', cursive;
+
+    font-stretch: expanded;
+}
+.pink-500{
+   background-color: hsl(343,81%,76%);
+}
+.gradient{
+    background: rgb(0, 97, 242) ;
+    background: linear-gradient(#8E2DE2, #4A00E0);
+}
+.gradient-pink{
+    background: hsl(0, 0, 100%) ;
+    background: linear-gradient(#F289AD, #FDC39E);
+}
+
+.nav-bg-color.scrolled{
+    background: rgb(0, 97, 242);
+    background: linear-gradient(#8E2DE2, #4A00E0);
+}
+header{
+    height: 100vh;
+}
+.btn-Sıgnup{
+    border-radius: 50px;
+}
+.Icon_Box_circle{
+    color: #fff;
+    padding: .7rem;
+    font-size: 2rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Icon_Box_square{
+    color: #fff;
+    padding: .5rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.Icon_Box_square svg{
+    transform: rotate(315deg);
+}
+.Icon_Box_triangle{
+    color: #fff;
+    /* padding: .5rem; */
+    font-size: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-1{
+    position: absolute;
+    top: 80%;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    left: 4%;
+}
+
+.section-1-box-shadow{
+    border-radius: 10px;
+    box-shadow: -3px 5px #3023AE;
+}
+.smallText{
+    font-size: .5em;
+}
+.smallText2{
+    font-size: .8rem;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.card{
+    border: 5px solid hsl(248,63%,43%);
+    transition: 1s;
+}
+.card:hover{
+    color: #fff;
+    background: linear-gradient(0deg,#C46BD6, #3525AF);
+    border: none;
+}
+.cardbtn{
+    transition: 1s;
+    color: #C263D2;
+    outline: none;
+    outline-offset: none;
+    font-weight: 600;
+    padding: .7rem 1rem;
+}
+.cardbtn:hover{
+    color: #C263D2;
+
+    border: none;
+    background-color: #fff;
+}
+
+.box{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+}
+.box .innerCircle{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.box .innerCircle svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.box .innerCircle svg circle{
+    width: 150px;
+    height: 150px;
+    fill: none;   
+    stroke-width: 10 ;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    stroke-linecap: round;
+}
+.box .innerCircle svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #EAE9F6;
+}
+.box .innerCircle svg .card79 {
+    stroke-dashoffset: calc(440 - (440 * 20) / 100);
+    stroke: #8E2DE2;
+}
+.box .innerCircle svg .card159{
+    stroke-dashoffset: calc(440 - (440 * 50) / 100);
+    stroke: #8E2DE2;
+}
+.box .innerCircle svg .card359{
+    stroke-dashoffset: calc(440 - (440 * 100) / 100);
+    stroke: #8E2DE2;
+}
+footer{
+    margin: 4rem 0 0 0;
+}
+.finish{
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(85deg,#5735B9, #8E2DE2) ;
+    margin: 3rem 0 0 0;
+}
