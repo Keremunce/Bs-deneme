@@ -58,9 +58,7 @@ section{
     background: rgb(0, 97, 242);
     background: linear-gradient(#8E2DE2, #4A00E0);
 }
-header{
-    height: 100vh;
-}
+
 .btn-Sıgnup{
     border-radius: 50px;
 }
@@ -119,25 +117,28 @@ header{
     font-weight: bold;
 }
 .card{
-    border: 5px solid hsl(248,63%,43%);
+    /* border: 5px solid hsl(248,63%,43%);
+    border-color:linear-gradient(0deg,#C46BD6, #3525AF) ; */
     transition: 1s;
 }
+
 .card:hover{
     color: #fff;
     background: linear-gradient(0deg,#C46BD6, #3525AF);
     border: none;
 }
 .cardbtn{
-    transition: 1s;
+    transition: .5s;
     color: #C263D2;
     outline: none;
     outline-offset: none;
     font-weight: 600;
     padding: .7rem 1rem;
+
 }
 .cardbtn:hover{
     color: #C263D2;
-
+    box-shadow: -5px 6px #3525AF;
     border: none;
     background-color: #fff;
 }
@@ -196,4 +197,7 @@ footer{
     height: 10%;
     background: linear-gradient(85deg,#5735B9, #8E2DE2) ;
     margin: 3rem 0 0 0;
+}
+.nowrap{
+    white-space: nowrap;
 }
